@@ -1,0 +1,180 @@
+
+/* BASE COLORS - All CIS applications */
+.white {
+color:#fff;
+}
+
+.grey-1 {
+color: #f7faf9;
+}
+
+.grey-1-bg {
+background-color: #f7faf9;
+}
+
+.grey-2 {
+color: #ecf0f1;
+}
+
+.grey-2-bg {
+background-color: #ecf0f1;
+}
+
+.grey-3 {
+color: #d4dadd;
+}
+
+.grey-3-bg {
+background-color: #d4dadd;
+}
+
+.grey-4 {
+color: #bcc3c6;
+}
+
+.grey-4-bg {
+background-color: #bcc3c6;
+}
+
+.grey-5 {
+color: #a2aaad;
+}
+
+.grey-5-bg {
+background-color: #a2aaad;
+}
+
+.grey-6 {
+color: #91999d;
+}
+
+.grey-6-bg {
+background-color: #91999d;
+}
+
+.grey-7 {
+color: #5d6468;
+}
+
+.grey-7-bg {
+background-color: #5d6468;
+}
+
+.grey-8 {
+color: #3f3e42;
+}
+
+.grey-8-bg {
+background-color: #3f3e42;
+}
+
+.blue-1 {
+color: #b2c1cc;
+}
+
+.blue-1-bg {
+background-color: #b2c1cc;
+}
+
+.blue-2 {
+color: #96aabf;
+}
+
+.blue-2-bg {
+background-color: #96aabf;
+}
+
+.blue-3 {
+color: #72849A;
+}
+
+.blue-3-bg {
+background-color: #72849A;
+}
+
+.blue-4 {
+color: #5e7086;
+}
+
+.blue-4-bg {
+background-color: #5e7086;
+}
+
+.blue-5 {
+color: #4a5c72;
+}
+
+.blue-5-bg {
+background-color: #4a5c72;
+}
+
+.blue-6 {
+color: #36485e;
+}
+
+.blue-6-bg {
+background-color: #36485e;
+}
+
+.blue-7 {
+color: #2d3e50;
+}
+
+.blue-7-bg {
+background-color: #2d3e50;
+}
+
+.blue-8 {
+color: #1f3041;
+}
+
+.blue-8-bg {
+background-color: #1f3041;
+}
+
+
+
+
+/* ACCENT COLORS */
+/*business directory*/
+
+.bus-accent-ltx2 {
+background-color: #fbe8cd;
+}
+
+.bus-accent-ltx1 {
+background-color: #f1b768;
+}
+
+.bus-accent-pure {
+background-color: #f39c11;
+}
+
+.bus-accent-strx1 {
+background-color: #e77e23;
+}
+
+.bus-accent-strx2 {
+background-color: #e77e23;
+}
+
+/*deployment manager*/
+.dep-accent-ltx2 {
+background-color: #d1ffe9;
+}
+
+.dep-accent-ltx1 {
+background-color: #64edaf;
+}
+
+.dep-accent-pure {
+background-color: #00c786;
+}
+
+.dep-accent-strx1 {
+background-color: #00ae72;
+}
+
+.dep-accent-strx2 {
+background-color: #00774a;
+}

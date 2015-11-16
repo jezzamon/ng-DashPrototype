@@ -1,0 +1,145 @@
+/* custom grid */
+/* 1452 wide */
+/* 1452 divided by 24 = 60.5px */
+
+/*colums are 60.5px wide, 12px left padding on style sheet*/
+
+/* GLOBAL */
+/****************************************/
+.grid-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
+}
+#admin-resources img {
+    height: 100%;
+    width:100%;
+}
+
+/* Columns */
+/******************************************/
+[class^="grid-"] {
+    float: left;
+    min-height:1px; /*prevent columns from collapsing */
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+/*.container > [class^="grid-"]:last-child;
+    float: right;*/
+
+
+.grid-1 {
+    width: 4.166667%; /*60.5 / 1452 */ 
+}
+
+.offset-1 {
+    padding-left: 4.166667%;
+}
+
+.grid-2 {
+    width: 8.3333333%; /* (60.5*2)/1452 */
+}
+
+.grid-3 {
+    width: 12.5%;     /* (60.5*3)/1452 */
+}
+
+.grid-4 {
+    width: 16.666667%; /*(60.5*4)/1452*/
+}
+
+.grid-5 {
+    width: 20.833333%; /*(60.5*5)/1452*/
+}
+
+.grid-6 {
+    width: 25%; /*(60.5*6)/1452*/
+}
+
+.grid-7 {
+    width: 29.166667%; /*(60.5*7)/1452*/
+}
+
+.grid-8 {
+    width: 33.3333333%; /*(60.5*8)/1452*/
+}
+
+.grid-9 {
+    width: 37.5%; /*(60.5*9)/1452*/
+}
+
+.grid-10 {
+    width: 41.6666667%; /*(60.5*10)/1452*/
+}
+
+.grid-11 {
+    width: 45.8333333%; /*(60.5*11)/1452*/
+}
+
+.grid-12 {
+    width: 50%; /*(60.5*12)/1452*/
+}
+
+.grid-13 {
+    width: 54.16666667%; /*(60.5*13)/1452*/
+}
+
+.grid-14 {
+    width: 58.33333333%; /*(60.5*14)/1452*/
+}
+
+.grid-15 {
+    width: 62.5%; /*(60.5*15)/1452*/
+}
+
+.grid-16 {
+    width: 66.66666667%; /*(60.5*16)/1452*/
+}
+
+.grid-17 {
+    width: 70.83333333%; /*(60.5*17)/1452*/
+}
+
+.grid-18 {
+    width: 75%; /*(60.5*18)/1452*/
+}
+
+.grid-19 {
+    width: 79.166666667%; /*(60.5*19)/1452*/
+}
+
+.grid-20 {
+    width: 83.33333333%; /*(60.5*20)/1452*/
+}
+
+.grid-21 {
+     width: 87.5%; /*(60.5*21)/1452*/   
+}
+
+.grid-22 {
+    width: 91.6666666667%; /*(60.5*22)/1452*/   
+}
+
+.grid-23 {
+    width: 95.8333333333%; /*(60.5*23)/1452*/
+}
+
+.grid-24 {
+    width: 100%; /*(60.5*24)/1452*/
+}
+
+/*Clearfix */
+.clearfix:after,
+.group:after,
+.grid-container:after{
+ content: '';
+ display: table;
+ clear: both;
+}
+
+
